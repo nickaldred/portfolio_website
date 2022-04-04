@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/data/favicon.png">
+    <title>Nick Aldred</title>
+    <link rel="stylesheet" href="static/css/style.css"/>
+    <script src="static/js/svg-inject.min.js"></script>
+    <script src="static/js/reveal.js"></script>
+    <script src="static/js/hide.js"></script>
+
+</head>
+<body>
+    <header class = navbar>
+        <div class="navbar__logo">
+        <a href="/"><img class="logo__img" src="/static/data/logo_svg.svg" 
+            onload="SVGInject(this)" alt="Nick Aldred's Logo"/></a>
+        </div>
+        <ul class="navbar__navigation">
+            <li class="navbar__item"><a href="/about_me" class="navbar__link"> 
+            About Me</a> </li>
+            <li class="navbar__item"><a href="/projects" class="navbar__link"> 
+            Projects</a> </li>
+            <li class="navbar__item"><a href="mailto:hello@nickaldred.com" 
+            class="navbar__link"> Contact Me</a> </li>
+            <li class="navbar__item"><a href="/cv" class="navbar__link"> 
+            CV</a> </li>
+        </ul>
+    </header>
+
+    <main class="main">
+    <div class="container reveal">
+        <section class="intro">
+            <a href="/about_me" class="intro__link"><img class="intro__logo" 
+            src="/static/data/home_page/me.png" alt="Picture of Nick"/></a>
+            <div class='column'>
+            <h1 class="intro__heading">Hi, I'm Nick!</h1>
+            <p class="intro__paragraph">Aspiring Software Engineer currently 
+                undertaking a Masters's Degree in Computer Science 
+                at Keele University with experience in Python, JavaScript, 
+                C, CSS, HTML, Arduino, MATLAB, SQL, VB.net. 
+                I earned my Bachelor's Degree in Electronic Engineering.</p>
+            </div>
+
+        </section>
+    </div>
+        
+
+        <div class="container reveal">
+        <section class="noteworthy__projects">
+            <div class="column2">
+            <h1 class="noteworthy__projects__heading">Recent Projects</h1>
+            <div class="row">
+            <div class="column4">
+            <div class="project__display"><a href="/project1">
+                <img class=project__gif src="/static/data/main_project1.gif" 
+                alt="Picture of project"/>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>Data Visualisation</h4>
+                        <p>A website visualising tweet sentiment from a CSV file
+                            data about US airlines.</p>
+                        <p> Utilising: </p> - Python with Flask 
+                        <br> - JavaScript with D3.js <br> - HTML & CSS</p></div>
+                </div>
+            </a>
+            </div>
+            
+            
+            <div class="project__display"><a href="/project2">
+                <img class=project__gif src="/static/data/main_project2.gif" 
+                alt="Picture of project"/>
+                <div class="overlay">
+                    <div class="text">                     
+                        <h4>User Log In Application</h4> 
+                        <p>A web application enabling a user to register an 
+                        account then log in with the registered details.</p>
+                        <p> Utilising: </p> - Python with Flask <br> - MySQL 
+                        <br> - Encryption <br> - HTML & CSS</p>   
+
+                        </div>
+
+                </div>
+            </a>
+            </div>
+            </div>
+            
+            <div class="column3">
+            <div class="project__display"><a href="/project3">
+            <img class=project__gif src="/static/data/main_project3.gif" 
+            alt="Picture of project"/>
+                <div class="overlay">
+                    
+                    <div class="text">
+
+                        <h4>Microblog</h4> 
+                        <p>A website enabling a user to blog text data which 
+                        is stored in MongoDB.</p>
+                        <p> Utilising: </p> - Python with Flask 
+                        <br> - MongoDB <br> - HTML & CSS</p> 
+                        </div> 
+                </div>
+            </a>
+            </div>
+
+
+            <div class="project__display"><a href="/"><img class=project__gif 
+                src="/static/data/main_project5.gif" alt="Picture of project"/>
+                <div class="overlay">
+                    <div class="text">
+                    <h4>Portfolio Website</h4> 
+                    <p>A website enabling a user to view my programming work, 
+                        hosted on AWS and Heroku .</p>
+                    <p> Utilising: </p> - AWS <br> - Heroku <br> 
+                    - Python with Flask <br> - Javascript <br> - HTML & CSS</p>   
+                    </div>      
+                </div>
+            </a>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <a href="/"><img class="footer__logo" src="/static/data/logo_svg.svg" 
+            onload="SVGInject(this)" alt="Picture of logo"/></a>
+        <ul class="footer__navigation">
+            <li class="footer__nav__item">
+            <a href="/about_me" class="footer__nav__link"> About Me</a> </li>
+            <li class="footer__nav__item">
+            <a href="/projects" class="footer__nav__link"> Projects</a> </li>
+            <li class="footer__nav__item">
+            <a href="mailto:hello@nickaldred.com" class="footer__nav__link">
+            Contact Me</a> </li>
+            <li class="footer__nav__item">
+            <a href="/cv" class="footer__nav__link"> CV</a> </li>
+        </ul>
+
+        <ul class="footer__social__links">
+            <li class="footer__social__item">
+            <a href="mailto:hello@nickaldred.com" class="footer__link">
+            <img class="footer__social__logo" src="/static/data/email.svg" 
+            onload="SVGInject(this)" alt="Picture of email logo"></a>
+
+            <li class="footer__social__item"><a href="/linkedin" 
+            class="footer__link"><img class="footer__social__logo" 
+            src="/static/data/linked_in.svg" onload="SVGInject(this)" 
+            alt="Picture of Linked in logo"></a>
+
+            <li class="footer__social__item">
+            <a href="/github" class="footer__link">
+            <img class="footer__social__logo" src="/static/data/github.svg"
+            onload="SVGInject(this)" alt="Picture of Github logo"></a>
+        </ul>
+
+        <p class="footer__text">
+            Designed and built by Nick Aldred
+        </p>
+
+    </footer>
+
+
+    
+</body>
+</html>

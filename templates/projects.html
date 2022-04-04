@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/data/favicon.png">
+    <link rel="stylesheet" href="static/css/style.css"/>
+    <script src="static/js/svg-inject.min.js"></script>
+    <script src="static/js/reveal.js"></script>
+    <script src="static/js/project-reveal.js"></script>
+    <title>Projects</title>
+</head>
+<body>
+    <header class = navbar>
+        <div class="navbar__logo">
+            <a href="/"><img class="logo__img" src="/static/data/logo_svg.svg" 
+            onload="SVGInject(this)" alt="Nick Aldred's Logo"/></a>
+        </div>
+        <ul class="navbar__navigation">
+            <li class="navbar__item">
+            <a href="/about_me" class="navbar__link"> About Me</a> </li>
+            <li class="navbar__item">
+            <a href="/projects" class="navbar__link"> Projects</a> </li>
+            <li class="navbar__item">
+            <a href="mailto:hello@nickaldred.com" class="navbar__link"> Contact Me</a> </li>
+            <li class="navbar__item">
+            <a href="/cv" class="navbar__link"> CV</a> </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="container__projects">
+        <div class="container reveal">
+        <div class="container__reveal">
+        <section class="projects">
+
+        <div class="row">
+            <div class="project__display2">
+            <img onclick="myFunction(1)" 
+            class="project__gif2" src="/static/data/main_project1.gif"></div>
+
+            <div class="project__display2">
+            <img onclick="myFunction(2)" 
+            class="project__gif2" src="/static/data/main_project2.gif"></div>
+
+            <div class="project__display2">
+            <img onclick="myFunction(3)" 
+            class="project__gif2" src="/static/data/main_project3.gif"></div>
+
+            <div class="project__display2">
+            <img onclick="myFunction(4)" 
+            class="project__gif2" src="/static/data/main_project5.gif"></div>
+        </div>
+
+        <div class="row">
+            <div class="project__display2">
+            <img onclick="myFunction(5)" 
+            class="project__gif2" src="/static/data/main_project4.gif"></div>
+
+            <div class="project__display2">
+            <img onclick="myFunction(6)" 
+            class="project__gif2" src="/static/data/main_project6.gif"></div>
+
+            <div class="project__display2">
+            <img onclick="myFunction(7)" 
+            class="project__gif2" src="/static/data/main_project7.gif"></div>
+
+            <div class="project__display2">
+            <img onclick="myFunction(8)" 
+            class="project__gif2" src="/static/data/main_project8.gif"></div>
+
+        </div>
+        </div>
+        </div>
+
+        </section>
+
+
+        <section class="projects__reveal">
+
+            	<!-- Item 01 -->
+            <div id="demo" class="project__reveal">
+	            <div id="item1" class="port">
+                   
+		            <div id="project__row" class="row">
+			            <div id="item1_text" class="description__project">
+				        <h1 class="text__project">Data Visualisation</h1>
+
+				        <p class="project__description">
+                            A website that uses data from a CSV file regarding 
+                            tweetsentiment of US airlines and displays this 
+                            data in the form of graphs and tables using D3.js. 
+                            This allows the user to better understand the data 
+                            presented to them. Interactivity is also 
+                            implemented in the form of tooltips, this allows 
+                            the user to engage with the data.
+
+                        <h1 class="text__project">Utilising:</h1>
+
+                        <ul class="project__spec">
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>JavaScript</li>
+                            <li>D3.js</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>OOP</li>
+                        </ul>
+                        
+                        
+                        </p>
+			            <div class="row2">
+                        <a href= "/project1" class="project_button_link">
+                        <img class = "project__buttons" 
+                        src="/static/data/app2.svg" onload="SVGInject(this)" 
+                        alt="Application button" onclick="myFunctionhide()"/>
+                        </a>
+
+                        <a href= "/project1_git" class="project_button_link">
+                        <img class = "project__buttons" 
+                        src="/static/data/github.svg" onload="SVGInject(this)" 
+                        alt="Application button" onclick="myFunctionhide()"/>
+                        </a>
+                        </div>
+                        </div>
+                    
+                    
+                    <img id="item1_picture" class="main__project__gif" 
+                    src="/static/data/main_project1.gif">
+
+                    <img id="cross1" class="cross" src="/static/data/cross.svg" 
+                    onload="SVGInject(this)" alt="Exit cross" 
+                    onclick="myFunctionhide(1)"/>
+                    </div>  
+                    </div>
+
+
+                    
+                    
+                </div>
+
+            <!-- Item 02 -->
+        <div id="demo" class="project__reveal">
+	        <div id="item2" class="port">
+                   
+		        <div id="project__row" class="row">
+			        <div id="item2_text" class="description__project">
+				    <h1 class="text__project">SQL Log In Tool</h1>
+				    <p class="project__description">
+                        A login tool for a website that allows the user to
+                       register for an account, and then lets the user log in
+                       with their registered details. The user's password is
+                       encrypted using Bcrypt and then stored in a MySQL
+                       database.
+
+                    <h1 class="text__project">Utilising:</h1>
+
+                    <ul class="project__spec">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Encryption</li>
+                        <li>MySQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>OOP</li>
+                    </ul>
+                        
+                        
+                    </p>
+			        <div class="row2">
+                    <a href= "/project2" class="project_button_link">
+                    <img class = "project__buttons" src="/static/data/app2.svg" 
+                    onload="SVGInject(this)" alt="Application button" 
+                    onclick="myFunctionhide()"/></a>
+
+                    <a href= "/project2_git" class="project_button_link">
+                    <img class = "project__buttons" 
+                    src="/static/data/github.svg" 
+                    onload="SVGInject(this)" alt="Application button" 
+                    onclick="myFunctionhide()"/></a>
+                    </div>
+                    </div>
+                    
+                    
+                <img id="item2_picture" class="main__project__gif" 
+                src="/static/data/main_project2.gif">
+
+                <img id="cross2" class="cross" src="/static/data/cross.svg" 
+                onload="SVGInject(this)" alt="Exit cross" 
+                onclick="myFunctionhide(2)"/>
+            </div>  
+        </div>
+        
+         <!-- Item 03 -->
+         <div id="demo" class="project__reveal">
+            <div id="item3" class="port">
+               
+                <div id="project__row" class="row">
+                    <div id="item3_text" class="description__project">
+                    <h1 class="text__project">Microblog</h1>
+                    <p class="project__description">
+                        A website that allows the user to type out a message 
+                        in an input field and then save this data to the 
+                        website via a click of a button. Anyone can then 
+                        view this message forming whats known as a "blog". 
+                        The message is saved in a MongoDB database.
+
+                    <h1 class="text__project">Utilising:</h1>
+
+                    <ul class="project__spec">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>MongoDB</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    
+                    
+                    </p>
+                    <div class="row2">
+                    <a href= "/project3" class="project_button_link">
+                    <img class = "project__buttons" 
+                    src="/static/data/app2.svg" onload="SVGInject(this)" 
+                    alt="Application button" onclick="myFunctionhide()"/></a>
+
+                    <a href= "/project3_git" class="project_button_link">
+                    <img class = "project__buttons" 
+                    src="/static/data/github.svg" onload="SVGInject(this)" 
+                    alt="Application button" onclick="myFunctionhide()"/></a>
+
+                    </div>
+                    </div>
+                
+                
+                <img id="item3_picture" class="main__project__gif" 
+                src="/static/data/main_project3.gif">
+
+                <img id="cross3" class="cross" src="/static/data/cross.svg" 
+                onload="SVGInject(this)" alt="Exit cross" 
+                onclick="myFunctionhide(3)"/>
+                </div>  
+            </div>           
+        </div>
+
+
+        <!-- Item 04 -->
+        <div id="demo" class="project__reveal">
+            <div id="item4" class="port">
+               
+                <div id="project__row" class="row">
+                    <div id="item4_text" class="description__project">
+                    <h1 class="text__project">Personal Portfolio</h1>
+                    <p class="project__description">
+                        A website to display to the user some information 
+                        about me, display some of my personal software projects,
+                        view my CV and also get in touch with me via email. 
+                        The website and email service is hosted on Amazon's 
+                        AWS service, which has enabled me to get more familiar 
+                        with the service. The individual projects are hosted 
+                        externally on Heroku.
+
+                    <h1 class="text__project">Utilising:</h1>
+
+                    <ul class="project__spec">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>JavaScript</li>
+                        <li>AWS</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>OOP</li>
+                    </ul>
+                    
+                    
+                    </p>
+                    <div class="row2">
+                    <a href= "/project4" class="project_button_link">
+                    <img class = "project__buttons" src="/static/data/app2.svg" 
+                    onload="SVGInject(this)" alt="Application button" 
+                    onclick="myFunctionhide()"/></a>
+
+                    <a href= "/project4_git" class="project_button_link">
+                    <img class = "project__buttons" 
+                    src="/static/data/github.svg" onload="SVGInject(this)" 
+                    alt="Application button" onclick="myFunctionhide()"/></a>
+
+                    </div>
+                    </div>
+                
+                
+                <img id="item4_picture" class="main__project__gif" 
+                src="/static/data/main_project5.gif">
+                <img id="cross4" class="cross" src="/static/data/cross.svg" 
+                onload="SVGInject(this)" alt="Exit cross" 
+                onclick="myFunctionhide(4)"/>
+                </div>  
+            </div>           
+        </div>
+
+        <!-- Item 05 -->
+        <div id="demo" class="project__reveal">
+            <div id="item5" class="port">
+            
+                <div id="project__row" class="row">
+                    <div id="item5_text" class="description__project">
+                    <h1 class="text__project">Webcam Photo Viewer</h1>
+                    <p class="project__description">
+                        A program that allows the user to view the webcam on 
+                        their computer and then capture a picture and save it 
+                        to there computer. The user then has the option to 
+                        upload this picture to Filestack and create a link they 
+                        can share with others to view the picture.
+
+                    <h1 class="text__project">Utilising:</h1>
+
+                    <ul class="project__spec">
+                        <li>Python</li>
+                        <li>Filestack</li>
+                        <li>Kivy</li>
+                        <li>OOP</li>
+                    </ul>
+                    
+                    
+                    </p>
+                    <div class="row2">
+                    <!--<img class = "project__buttons" src="/static/data/app2.svg" onload="SVGInject(this)" alt="Application button" onclick="myFunctionhide()"/>-->
+                    <a href= "/project5_git" class="project_button_link">
+                    <img class = "project__buttons" 
+
+                    src="/static/data/github.svg" onload="SVGInject(this)" 
+                    alt="Application button" onclick="myFunctionhide()"/></a>
+                    </div>
+                    </div>
+                
+                
+                <img id="item5_picture" class="main__project__gif" 
+                src="/static/data/main_project4.gif">
+
+                <img id="cross5" class="cross" src="/static/data/cross.svg" 
+                onload="SVGInject(this)" alt="Exit cross" 
+                onclick="myFunctionhide(5)"/>
+                </div>  
+            </div>           
+        </div>
+
+        <!-- Item 06 -->
+        <div id="demo" class="project__reveal">
+            <div id="item6" class="port">
+            
+                <div id="project__row" class="row">
+                    <div id="item6_text" class="description__project">
+                    <h1 class="text__project">WebSocket</h1>
+                    <p class="project__description">
+                A website that allows users to communicate simultaneously
+                by sending text messages via a WebSocket API. The WebSocket
+                was made as part of a tutorial for my course at Keele 
+                University. Improved by myself implementing security features 
+                such as WSS, rate limiting and input validation.
+
+                <h1 class="text__project">Utilising:</h1>
+
+                <ul class="project__spec">
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>JavaScript</li>
+                    <li>API</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>OOP</li>
+                </ul>
+                
+                
+                </p>
+                <div class="row2">
+                <a href= "/project6" class="project_button_link">
+                <img class = "project__buttons" src="/static/data/app2.svg" 
+                onload="SVGInject(this)" alt="Application button" 
+                onclick="myFunctionhide()"/></a>
+
+                <a href= "/project6_git" class="project_button_link">
+                <img class = "project__buttons" src="/static/data/github.svg" 
+                onload="SVGInject(this)" alt="Application button"
+                onclick="myFunctionhide()"/></a>
+                </div>
+                </div>
+            
+                
+                <img id="item6_picture" class="main__project__gif" 
+                src="/static/data/main_project6.gif">
+
+                <img id="cross6" class="cross" src="/static/data/cross.svg" 
+                onload="SVGInject(this)" alt="Exit cross" 
+                onclick="myFunctionhide(6)"/>
+                </div>  
+            </div>           
+        </div>
+
+        <!-- Item 07 -->
+        <div id="demo" class="project__reveal">
+            <div id="item7" class="port">
+            
+                <div id="project__row" class="row">
+                    <div id="item7_text" class="description__project">
+                    <h1 class="text__project">Flatmates Bill Sharer Web App</h1>
+                    <p class="project__description">
+                        A website that allows a user to split bills between two
+                        flatmates according to the days they spent in the flat.
+                        The data is then exported into a PDF document for 
+                        storing or printing.
+
+                    <h1 class="text__project">Utilising:</h1>
+
+                    <ul class="project__spec">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>OOP</li>
+                    </ul>
+                    
+                    
+                    </p>
+                    <div class="row2">
+                    <a href= "/project7" class="project_button_link">
+                    <img class = "project__buttons" src="/static/data/app2.svg" 
+                    onload="SVGInject(this)" alt="Application button" 
+                    onclick="myFunctionhide()"/></a>
+                    <a href= "/project7_git" class="project_button_link">
+                    <img class = "project__buttons" 
+                    src="/static/data/github.svg" onload="SVGInject(this)" 
+                    alt="Application button" onclick="myFunctionhide()"/></a>
+                    </div>
+                    </div>
+                
+                
+                <img id="item7_picture" class="main__project__gif" 
+                src="/static/data/main_project7.gif">
+                <img id="cross7" class="cross" src="/static/data/cross.svg" 
+
+                onload="SVGInject(this)" alt="Exit cross" 
+                onclick="myFunctionhide(7)"/>
+                </div>  
+            </div>           
+        </div>
+
+        <!-- Item 08 -->
+        <div id="demo" class="project__reveal">
+            <div id="item8" class="port">
+            
+                <div id="project__row" class="row">
+                    <div id="item8_text" class="description__project">
+                    <h1 class="text__project">Calories Webapp</h1>
+                    <p class="project__description">
+                        A website that enables the user to see their calorie 
+                        requirements for the day by entering their weight, 
+                        height and location. The app uses an equation to 
+                        calculate the requirements. The user's location is 
+                        required as the temperature has an effect on calorie 
+                        requirements. The app uses the provided location to web 
+                        scrape today's temperature from timeanddate.com
+
+                    <h1 class="text__project">Utilising:</h1>
+
+                    <ul class="project__spec">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Web Scraping</li>
+                        <li>OOP</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    
+                    
+                    </p>
+                    <div class="row2">
+                    <a href= "/project8" class="project_button_link">
+                    <img class = "project__buttons" src="/static/data/app2.svg" 
+                    onload="SVGInject(this)" alt="Application button" 
+                    onclick="myFunctionhide()"/></a>
+
+                    <a href= "/project8_git" class="project_button_link">
+                    <img class = "project__buttons" 
+
+                    src="/static/data/github.svg" onload="SVGInject(this)" 
+                    alt="Application button" onclick="myFunctionhide()"/></a>
+                    </div>
+                    </div>
+                
+                
+                <img id="item8_picture" class="main__project__gif" 
+                src="/static/data/main_project8.gif">
+
+                <img id="cross8" class="cross" src="/static/data/cross.svg" 
+                onload="SVGInject(this)" alt="Exit cross" 
+                onclick="myFunctionhide(8)"/>
+                </div>  
+            </div>           
+        </div>
+
+            </div>
+
+            
+
+
+
+
+        </section>
+
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer class="footer">
+        <a href="/"><img class="footer__logo" src="/static/data/logo_svg.svg" 
+            onload="SVGInject(this)" alt="Picture of logo"/></a>
+        <ul class="footer__navigation">
+            <li class="footer__nav__item"><a href="/about_me" 
+                class="footer__nav__link"> About Me</a> </li>
+            <li class="footer__nav__item"><a href="/projects" 
+                class="footer__nav__link"> Projects</a> </li>
+            <li class="footer__nav__item"><a href="mailto:hello@nickaldred.com" 
+                class="footer__nav__link"> Contact Me</a> </li>
+            <li class="footer__nav__item"><a href="/cv" 
+                class="footer__nav__link"> CV</a> </li>
+        </ul>
+
+        <ul class="footer__social__links">
+            <li class="footer__social__item">
+            <a href="mailto:hello@nickaldred.com" class="footer__link">
+            <img class="footer__social__logo" src="/static/data/email.svg" 
+            onload="SVGInject(this)" alt="Picture of email logo"></a>
+
+            <li class="footer__social__item"><a href="/linkedin" 
+            class="footer__link"><img class="footer__social__logo" 
+            src="/static/data/linked_in.svg" onload="SVGInject(this)" 
+            alt="Picture of Linked in logo"></a>
+
+            <li class="footer__social__item">
+            <a href="/github" class="footer__link">
+            <img class="footer__social__logo" src="/static/data/github.svg" 
+            onload="SVGInject(this)" alt="Picture of Github logo"></a>
+        </ul>
+
+        <p class="footer__text">
+            Designed and built by Nick Aldred
+        </p>
+
+    </footer>
+    
+</body>
+</html>
