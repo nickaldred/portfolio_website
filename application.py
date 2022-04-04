@@ -70,7 +70,7 @@ def project4():
 
 @app.route("/project4_git")
 def project4_git():
-    return redirect("/cv")
+    return redirect("https://github.com/nickaldred/portfolio_website")
 
 
 @app.route("/project5")
