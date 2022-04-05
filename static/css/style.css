@@ -471,6 +471,7 @@ body {
 
 .container__projects {
   position: relative;
+  min-height: 650px;
   height: 80vh;
 }
 
