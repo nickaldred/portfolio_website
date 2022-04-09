@@ -27,6 +27,14 @@ def cv():
     filepath = workingdir + '/static/files'
     return send_from_directory(filepath, 'cv.pdf')
 
+@app.route("/mobile_home")
+def mobile_home():
+    return(render_template("mobile_home.html"))
+
+@app.route("/mobile_about_me")
+def mobile_about_me():
+    return(render_template("mobile_about_me.html"))
+
 #Functions to redirect to socials - Linked in and Github
 
 @app.route("/linkedin")
