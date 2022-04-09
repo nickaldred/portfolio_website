@@ -55,7 +55,7 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-height:65vh;
+    min-height:62.5vh;
   
   }
   
