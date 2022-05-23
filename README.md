@@ -1,5 +1,5 @@
 # portfolio_website
-A website enabling a user to view my programming work. Hosted using AWS and Heroku
+A website enabling a user to view my programming work. Hosted using AWS and Heroku.
 
 
 Personal Portfolio
@@ -9,11 +9,11 @@ which has enabled me to get more familiar with the service. The individual proje
 
 Utilising:
 
-Python 
-Flask
-JavaScript 
-AWS
-HTML 
+Python, 
+Flask,
+JavaScript, 
+AWS,
+HTML &
 CSS
 
 
