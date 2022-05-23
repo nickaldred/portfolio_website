@@ -9,12 +9,12 @@ which has enabled me to get more familiar with the service. The individual proje
 
 Utilising:
 
-Python /n
-Flask /n
-JavaScript /n
-AWS /n
-HTML /n
-CSS/n
+Python 
+Flask
+JavaScript 
+AWS
+HTML 
+CSS
 
 
 
